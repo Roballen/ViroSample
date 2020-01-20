@@ -1,0 +1,28 @@
+{
+  "name": "ViroSample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "prestart": "./node_modules/react-viro/bin/run_ngrok.sh",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "react-native-camera": "^3.15.1",
+    "react-native-text-detector": "^0.0.6",
+    "react-viro": "2.17.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/runtime": "^7.7.7",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.4",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
